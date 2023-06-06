@@ -1,0 +1,40 @@
+2023-06-05 22:43:40 [2023-06-06 03:43:40.097][102][debug][filter] [source/common/tcp_proxy/tcp_proxy.cc:200] [C11] new tcp proxy session
+2023-06-05 22:43:40 [2023-06-06 03:43:40.098][102][debug][filter] [source/common/tcp_proxy/tcp_proxy.cc:343] [C11] Creating connection to cluster local_app
+2023-06-05 22:43:40 [2023-06-06 03:43:40.107][102][debug][pool] [source/common/tcp/conn_pool.cc:80] creating a new connection
+2023-06-05 22:43:40 [2023-06-06 03:43:40.107][102][debug][pool] [source/common/tcp/conn_pool.cc:372] [C12] connecting
+2023-06-05 22:43:40 [2023-06-06 03:43:40.108][102][debug][connection] [source/common/network/connection_impl.cc:644] [C12] connecting to 127.0.0.1:9090
+2023-06-05 22:43:40 [2023-06-06 03:43:40.110][102][debug][connection] [source/common/network/connection_impl.cc:653] [C12] connection in progress
+2023-06-05 22:43:40 [2023-06-06 03:43:40.110][102][debug][pool] [source/common/tcp/conn_pool.cc:106] queueing request due to no available connections
+2023-06-05 22:43:40 [2023-06-06 03:43:40.110][102][debug][main] [source/server/connection_handler_impl.cc:257] [C11] new connection
+2023-06-05 22:43:40 [2023-06-06 03:43:40.111][102][debug][connection] [source/extensions/transport_sockets/tls/ssl_socket.cc:142] [C11] handshake error: 5
+2023-06-05 22:43:40 [2023-06-06 03:43:40.111][102][debug][connection] [source/extensions/transport_sockets/tls/ssl_socket.cc:175] [C11] 
+2023-06-05 22:43:40 [2023-06-06 03:43:40.111][102][debug][connection] [source/common/network/connection_impl.cc:183] [C11] closing socket: 0
+2023-06-05 22:43:40 [2023-06-06 03:43:40.111][102][debug][pool] [source/common/tcp/conn_pool.cc:214] canceling pending request
+2023-06-05 22:43:40 [2023-06-06 03:43:40.111][102][debug][pool] [source/common/tcp/conn_pool.cc:222] canceling pending connection
+2023-06-05 22:43:40 [2023-06-06 03:43:40.111][102][debug][connection] [source/common/network/connection_impl.cc:101] [C12] closing data_to_write=0 type=1
+2023-06-05 22:43:40 [2023-06-06 03:43:40.111][102][debug][connection] [source/common/network/connection_impl.cc:183] [C12] closing socket: 1
+2023-06-05 22:43:40 [2023-06-06 03:43:40.112][102][debug][pool] [source/common/tcp/conn_pool.cc:121] [C12] client disconnected
+2023-06-05 22:43:40 [2023-06-06 03:43:40.112][102][debug][main] [source/server/connection_handler_impl.cc:68] [C11] adding to cleanup list
+2023-06-05 22:43:40 [2023-06-06 03:43:40.112][102][debug][pool] [source/common/tcp/conn_pool.cc:246] [C12] connection destroyed
+2023-06-05 22:43:40 [2023-06-06 03:43:40.169][104][debug][filter] [source/common/tcp_proxy/tcp_proxy.cc:200] [C13] new tcp proxy session
+2023-06-05 22:43:40 [2023-06-06 03:43:40.169][104][debug][filter] [source/common/tcp_proxy/tcp_proxy.cc:343] [C13] Creating connection to cluster api.default.dc1.internal.86d99535-6443-9871-538a-b93906972c29.consul
+2023-06-05 22:43:40 [2023-06-06 03:43:40.170][104][debug][pool] [source/common/tcp/conn_pool.cc:80] creating a new connection
+2023-06-05 22:43:40 [2023-06-06 03:43:40.170][104][debug][pool] [source/common/tcp/conn_pool.cc:372] [C14] connecting
+2023-06-05 22:43:40 [2023-06-06 03:43:40.170][104][debug][connection] [source/common/network/connection_impl.cc:644] [C14] connecting to 10.5.0.4:20000
+2023-06-05 22:43:40 [2023-06-06 03:43:40.170][104][debug][connection] [source/common/network/connection_impl.cc:653] [C14] connection in progress
+2023-06-05 22:43:40 [2023-06-06 03:43:40.170][104][debug][pool] [source/common/tcp/conn_pool.cc:106] queueing request due to no available connections
+2023-06-05 22:43:40 [2023-06-06 03:43:40.170][104][debug][main] [source/server/connection_handler_impl.cc:257] [C13] new connection
+2023-06-05 22:43:40 [2023-06-06 03:43:40.170][104][debug][connection] [source/common/network/connection_impl.cc:517] [C14] connected
+2023-06-05 22:43:40 [2023-06-06 03:43:40.172][104][debug][connection] [source/extensions/transport_sockets/tls/ssl_socket.cc:142] [C14] handshake error: 2
+2023-06-05 22:43:40 [2023-06-06 03:43:40.175][104][debug][connection] [source/extensions/transport_sockets/tls/ssl_socket.cc:131] [C14] handshake complete
+2023-06-05 22:43:40 [2023-06-06 03:43:40.176][104][debug][pool] [source/common/tcp/conn_pool.cc:293] [C14] assigning connection
+2023-06-05 22:43:40 [2023-06-06 03:43:40.176][104][debug][filter] [source/common/tcp_proxy/tcp_proxy.cc:542] TCP:onUpstreamEvent(), requestedServerName: 
+2023-06-05 22:43:40 [2023-06-06 03:43:40.186][104][debug][connection] [source/common/network/connection_impl.cc:502] [C13] remote close
+2023-06-05 22:43:40 [2023-06-06 03:43:40.186][104][debug][connection] [source/common/network/connection_impl.cc:183] [C13] closing socket: 0
+2023-06-05 22:43:40 [2023-06-06 03:43:40.186][104][debug][connection] [source/common/network/connection_impl.cc:101] [C14] closing data_to_write=0 type=0
+2023-06-05 22:43:40 [2023-06-06 03:43:40.186][104][debug][connection] [source/common/network/connection_impl.cc:183] [C14] closing socket: 1
+2023-06-05 22:43:40 [2023-06-06 03:43:40.186][104][debug][connection] [source/extensions/transport_sockets/tls/ssl_socket.cc:244] [C14] SSL shutdown: rc=1
+2023-06-05 22:43:40 [2023-06-06 03:43:40.186][104][debug][connection] [source/extensions/transport_sockets/tls/ssl_socket.cc:175] [C14] 
+2023-06-05 22:43:40 [2023-06-06 03:43:40.186][104][debug][pool] [source/common/tcp/conn_pool.cc:121] [C14] client disconnected
+2023-06-05 22:43:40 [2023-06-06 03:43:40.186][104][debug][main] [source/server/connection_handler_impl.cc:68] [C13] adding to cleanup list
+2023-06-05 22:43:40 [2023-06-06 03:43:40.187][104][debug][pool] [source/common/tcp/conn_pool.cc:246] [C14] connection destroyed
