@@ -1,0 +1,62 @@
+2023-06-05 22:43:40 [2023-06-06 03:43:40.171][102][debug][filter] [source/common/tcp_proxy/tcp_proxy.cc:200] [C4] new tcp proxy session
+2023-06-05 22:43:40 [2023-06-06 03:43:40.171][102][debug][filter] [source/common/tcp_proxy/tcp_proxy.cc:343] [C4] Creating connection to cluster local_app
+2023-06-05 22:43:40 [2023-06-06 03:43:40.171][102][debug][pool] [source/common/tcp/conn_pool.cc:80] creating a new connection
+2023-06-05 22:43:40 [2023-06-06 03:43:40.171][102][debug][pool] [source/common/tcp/conn_pool.cc:372] [C5] connecting
+2023-06-05 22:43:40 [2023-06-06 03:43:40.171][102][debug][connection] [source/common/network/connection_impl.cc:644] [C5] connecting to 127.0.0.1:27911
+2023-06-05 22:43:40 [2023-06-06 03:43:40.171][102][debug][connection] [source/common/network/connection_impl.cc:653] [C5] connection in progress
+2023-06-05 22:43:40 [2023-06-06 03:43:40.171][102][debug][pool] [source/common/tcp/conn_pool.cc:106] queueing request due to no available connections
+2023-06-05 22:43:40 [2023-06-06 03:43:40.171][102][debug][main] [source/server/connection_handler_impl.cc:257] [C4] new connection
+2023-06-05 22:43:40 [2023-06-06 03:43:40.171][102][debug][connection] [source/extensions/transport_sockets/tls/ssl_socket.cc:142] [C4] handshake error: 2
+2023-06-05 22:43:40 [2023-06-06 03:43:40.171][102][debug][connection] [source/common/network/connection_impl.cc:517] [C5] connected
+2023-06-05 22:43:40 [2023-06-06 03:43:40.171][102][debug][pool] [source/common/tcp/conn_pool.cc:293] [C5] assigning connection
+2023-06-05 22:43:40 [2023-06-06 03:43:40.171][102][debug][filter] [source/common/tcp_proxy/tcp_proxy.cc:542] TCP:onUpstreamEvent(), requestedServerName: 
+2023-06-05 22:43:40 [2023-06-06 03:43:40.172][102][debug][connection] [source/extensions/transport_sockets/tls/ssl_socket.cc:142] [C4] handshake error: 2
+2023-06-05 22:43:40 [2023-06-06 03:43:40.175][102][debug][connection] [source/extensions/transport_sockets/tls/ssl_socket.cc:142] [C4] handshake error: 2
+2023-06-05 22:43:40 [2023-06-06 03:43:40.175][102][debug][connection] [source/extensions/transport_sockets/tls/ssl_socket.cc:142] [C4] handshake error: 2
+2023-06-05 22:43:40 [2023-06-06 03:43:40.176][102][debug][connection] [source/extensions/transport_sockets/tls/ssl_socket.cc:131] [C4] handshake complete
+2023-06-05 22:43:40 [2023-06-06 03:43:40.177][102][debug][router] [source/common/router/router.cc:320] [C0][S14618246317420925544] cluster 'local_agent' match for URL '/envoy.service.auth.v2.Authorization/Check'
+2023-06-05 22:43:40 [2023-06-06 03:43:40.177][102][debug][router] [source/common/router/router.cc:381] [C0][S14618246317420925544] router decoding headers:
+2023-06-05 22:43:40 ':method', 'POST'
+2023-06-05 22:43:40 ':path', '/envoy.service.auth.v2.Authorization/Check'
+2023-06-05 22:43:40 ':authority', 'local_agent'
+2023-06-05 22:43:40 ':scheme', 'http'
+2023-06-05 22:43:40 'te', 'trailers'
+2023-06-05 22:43:40 'grpc-timeout', '200m'
+2023-06-05 22:43:40 'content-type', 'application/grpc'
+2023-06-05 22:43:40 'x-consul-token', ''
+2023-06-05 22:43:40 'x-envoy-internal', 'true'
+2023-06-05 22:43:40 'x-forwarded-for', '10.5.0.4'
+2023-06-05 22:43:40 'x-envoy-expected-rq-timeout-ms', '200'
+2023-06-05 22:43:40 
+2023-06-05 22:43:40 [2023-06-06 03:43:40.177][102][debug][client] [source/common/http/codec_client.cc:26] [C6] connecting
+2023-06-05 22:43:40 [2023-06-06 03:43:40.177][102][debug][connection] [source/common/network/connection_impl.cc:644] [C6] connecting to 10.5.0.2:8502
+2023-06-05 22:43:40 [2023-06-06 03:43:40.177][102][debug][connection] [source/common/network/connection_impl.cc:653] [C6] connection in progress
+2023-06-05 22:43:40 [2023-06-06 03:43:40.177][102][debug][http2] [source/common/http/http2/codec_impl.cc:735] [C6] setting stream-level initial window size to 268435456
+2023-06-05 22:43:40 [2023-06-06 03:43:40.177][102][debug][http2] [source/common/http/http2/codec_impl.cc:757] [C6] updating connection-level initial window size to 268435456
+2023-06-05 22:43:40 [2023-06-06 03:43:40.177][102][debug][pool] [source/common/http/conn_pool_base.cc:20] queueing request due to no available connections
+2023-06-05 22:43:40 [2023-06-06 03:43:40.178][102][debug][connection] [source/common/network/connection_impl.cc:517] [C6] connected
+2023-06-05 22:43:40 [2023-06-06 03:43:40.178][102][debug][client] [source/common/http/codec_client.cc:64] [C6] connected
+2023-06-05 22:43:40 [2023-06-06 03:43:40.178][102][debug][pool] [source/common/http/http2/conn_pool.cc:96] [C6] creating stream
+2023-06-05 22:43:40 [2023-06-06 03:43:40.178][102][debug][router] [source/common/router/router.cc:1165] [C0][S14618246317420925544] pool ready
+2023-06-05 22:43:40 [2023-06-06 03:43:40.180][102][debug][router] [source/common/router/router.cc:717] [C0][S14618246317420925544] upstream headers complete: end_stream=false
+2023-06-05 22:43:40 [2023-06-06 03:43:40.180][102][debug][http] [source/common/http/async_client_impl.cc:94] async http request response headers (end_stream=false):
+2023-06-05 22:43:40 ':status', '200'
+2023-06-05 22:43:40 'content-type', 'application/grpc'
+2023-06-05 22:43:40 'x-envoy-upstream-service-time', '2'
+2023-06-05 22:43:40 
+2023-06-05 22:43:40 [2023-06-06 03:43:40.180][102][debug][client] [source/common/http/codec_client.cc:95] [C6] response complete
+2023-06-05 22:43:40 [2023-06-06 03:43:40.180][102][debug][pool] [source/common/http/http2/conn_pool.cc:237] [C6] destroying stream: 0 remaining
+2023-06-05 22:43:40 [2023-06-06 03:43:40.181][102][debug][http] [source/common/http/async_client_impl.cc:109] async http request response trailers:
+2023-06-05 22:43:40 'grpc-status', '0'
+2023-06-05 22:43:40 'grpc-message', ''
+2023-06-05 22:43:40 
+2023-06-05 22:43:40 [2023-06-06 03:43:40.181][102][debug][http2] [source/common/http/http2/codec_impl.cc:577] [C6] stream closed: 0
+2023-06-05 22:43:40 [2023-06-06 03:43:40.185][102][debug][connection] [source/extensions/transport_sockets/tls/ssl_socket.cc:244] [C4] SSL shutdown: rc=0
+2023-06-05 22:43:40 [2023-06-06 03:43:40.185][102][debug][connection] [source/extensions/transport_sockets/tls/ssl_socket.cc:175] [C4] 
+2023-06-05 22:43:40 [2023-06-06 03:43:40.186][102][debug][connection] [source/common/network/connection_impl.cc:502] [C4] remote close
+2023-06-05 22:43:40 [2023-06-06 03:43:40.186][102][debug][connection] [source/common/network/connection_impl.cc:183] [C4] closing socket: 0
+2023-06-05 22:43:40 [2023-06-06 03:43:40.186][102][debug][connection] [source/common/network/connection_impl.cc:101] [C5] closing data_to_write=0 type=0
+2023-06-05 22:43:40 [2023-06-06 03:43:40.187][102][debug][connection] [source/common/network/connection_impl.cc:183] [C5] closing socket: 1
+2023-06-05 22:43:40 [2023-06-06 03:43:40.187][102][debug][pool] [source/common/tcp/conn_pool.cc:121] [C5] client disconnected
+2023-06-05 22:43:40 [2023-06-06 03:43:40.187][102][debug][main] [source/server/connection_handler_impl.cc:68] [C4] adding to cleanup list
+2023-06-05 22:43:40 [2023-06-06 03:43:40.187][102][debug][pool] [source/common/tcp/conn_pool.cc:246] [C5] connection destroyed
