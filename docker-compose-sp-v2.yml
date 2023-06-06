@@ -6,12 +6,6 @@ services:
 
   # Define api service and envoy sidecar proxy for version 2 of the service
   api_v2:
-    # image: docker-build-fraud-sp:local
-    # ports:
-    #   - 8001:8001
-    # cap_add:
-    #   - SYS_NICE
-    #   - NET_BIND_SERVICE
     image: nginx:alpine
     # ports:
     #   - 8080:27911
@@ -33,7 +27,7 @@ services:
       SERVICE_CONFIG: /config/api_v2.json
     volumes:
       - "./service_config:/config"
-    command: ["consul", "connect", "envoy","-sidecar-for", "api-v2", "--", "-l", "debug", "--log-path", "envoy_logs.tx"]
+    command: ["consul", "connect", "envoy","-sidecar-for", "api-v2", "--", "-l", "debug"]
     network_mode: "service:api_v2"
 
 
